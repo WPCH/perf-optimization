@@ -2,6 +2,7 @@
 
 optimization of the function below with asm for ARM
 
+```
 void *drtp(unsigned short *dest, unsigned short *src, int n)
 {
 	int i;
@@ -16,4 +17,4 @@ void *drtp(unsigned short *dest, unsigned short *src, int n)
 		dest ++;
 	}
 }
-
+```
