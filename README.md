@@ -9,7 +9,7 @@ void *drtp(unsigned short *dest, unsigned short *src, int n)
 	for (i=0; i<n; i++)
 	{
 		unsigned int srcword = *src;
-		if ( src )
+		if ( srcword )
 		{
 			*dest = srcword;
 		}
